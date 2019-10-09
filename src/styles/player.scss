@@ -1,0 +1,114 @@
+$back-color: #333;
+
+#audio-player {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: $back-color;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 0px 8px 2px #333;
+}
+
+#audioTitle {
+  margin-top: 15px;
+}
+
+#audio-navigation {
+  width: 100%;
+  margin: 10px auto;
+}
+
+#seek-bar {
+  height: 9px;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+}
+
+#fill {
+  height: 9px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+
+#handle {
+  width: 8px;
+  height: 15px;
+  background-color: yellow;
+  border: 2px solid $back-color;
+  border-radius: 50px;
+  margin-top: -5px;
+}
+
+#controls {
+  margin-bottom: 15px;
+}
+
+#controls button {
+  width: 100px;
+  height: 30px;
+  background: $back-color;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+#controls button:hover {
+  text-shadow: 0px 0px 30px white;
+}
+
+#controls button i {
+  font-size: 20px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+$primary-color: #2ecc71;
+#volume-controller {
+  display: flex;
+  margin-left: 5px;
+  i {
+    position: relative;
+    color: white;
+    margin: 5px;
+  }
+}
+
+#volume {
+  /*position: absolute;
+  left: 24px;
+  margin: 0 auto;
+  height: 5px;
+  width: 150px;
+  background: red;
+  border-radius: 15px;
+
+  .ui-slider-range-min {
+    height: 5px;
+    width: 150px;
+    position: absolute;
+    background: $primary-color;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+  }
+
+  .ui-slider-handle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: yellow;
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -8px;
+    cursor: pointer;
+    outline: none;
+  }*/
+}
