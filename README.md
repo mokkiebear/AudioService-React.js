@@ -2,6 +2,8 @@
 
 Audio Service. This application I made when I was a trainee in the IT company (it was 2018).
 
+![image](https://user-images.githubusercontent.com/37170655/189043983-b2d29651-203a-4d73-a6da-e21280ee231a.png)
+
 ## Opportunities
 - Admin can add new audios to the service
 - Likes
