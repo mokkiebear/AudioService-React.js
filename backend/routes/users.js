@@ -4,7 +4,7 @@ mongoose.set("useCreateIndex", true);
 const Joi = require("joi");
 const { User, validate } = require("../models/user");
 const _ = require("lodash");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 router.get("/", async function(req, res) {
   const users = await User.find();

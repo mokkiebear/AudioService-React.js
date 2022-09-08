@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const Joi = require("joi");
 const { User } = require("../models/user");
 const _ = require("lodash");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 router.get("/", async function(req, res) {
   const users = await User.find().sort("name");
